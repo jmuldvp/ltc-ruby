@@ -18,3 +18,5 @@ cel_temp = fahr.map do |temp|
 end
 
 p cel_temp
+
+p [5, 10, 15].map { |num| num ** 2 }

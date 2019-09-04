@@ -33,3 +33,7 @@ def custom_min(arr)
   min = arr[0]
   arr.each { |val| min = val if valu < min }
 end
+puts
+
+nums = [6, 10, 7, 5, 4, 7]
+p [nums.min, nums.max]

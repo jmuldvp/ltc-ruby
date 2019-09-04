@@ -6,3 +6,6 @@ puts
 
 alpha = ["apple", "banana", "kiwi", "grape"]
 p numbers.include?("grape")
+puts
+
+p ["kangaroo", "koala", "lion", "zebra", "king kong"].reject { |animal| animal.include? "k" }
